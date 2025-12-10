@@ -43,3 +43,5 @@ stripe listen --forward-to localhost:5000/api/payments/webhook --events checkout
 5. The Stripe CLI will show webhook events and your backend will log them. Make sure `STRIPE_WEBHOOK_SECRET` in `.env` matches the secret shown by the Stripe CLI when running `stripe listen`.
 
 Note: For local webhook signature verification we rely on the `STRIPE_WEBHOOK_SECRET` and the server saves the raw request body to verify the signature.
+<img width="587" height="466" alt="image" src="https://github.com/user-attachments/assets/4897bf1a-0c85-4f14-82e4-d26f62d5ffa1" />
+
